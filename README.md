@@ -73,6 +73,15 @@ Este código utiliza la biblioteca multiprocessing para ejecutar la función scr
 La ventaja de este código es que ejecuta las solicitudes a cada URL en paralelo, lo que significa que puede ser más rápido que ejecutar cada solicitud secuencialmente.
 
 
+
+
+
+
+# Conclusión
+
+
+
+
 Si la tarea es intensiva en recursos y necesita ser completada lo más rápido posible, entonces la ejecución en paralelo puede ser la mejor opción. Si la tarea no es crítica en tiempo y los recursos son limitados, la ejecución secuencial puede ser suficiente.
 
 
