@@ -3,7 +3,7 @@
 El link de este repositorio es : https://github.com/carlospuigserver/Primera-tarea-Paralelo.git
 
 
-#Programación secuencial
+# Programación secuencial
 
 ```
 
@@ -32,7 +32,7 @@ La ventaja de este código es que es más simple y fácil de entender que el có
 
 
 
-#Multiprocesamiento
+# Multiprocesamiento
 
 ```
 from multiprocessing import Pool
