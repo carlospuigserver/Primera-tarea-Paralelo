@@ -23,12 +23,19 @@ output = []
 for url in urls:
     result = scrape(url)
     output.append(result)
+
+```
     
-    ```
     
-    Este código ejecuta las solicitudes a cada URL secuencialmente, lo que significa que cada solicitud se espera a que se complete antes de pasar a la siguiente solicitud. En este caso, el código ejecuta la función scrape para cada URL en la lista urls en orden, y luego agrega el resultado a una lista llamada output.
+    
+    
+    
+    
+Este código ejecuta las solicitudes a cada URL secuencialmente, lo que significa que cada solicitud se espera a que se complete antes de pasar a la siguiente solicitud. En este caso, el código ejecuta la función scrape para cada URL en la lista urls en orden, y luego agrega el resultado a una lista llamada output.
 
 La ventaja de este código es que es más simple y fácil de entender que el código de multiproceso. 
+
+
 
 
 
@@ -53,8 +60,11 @@ if __name__ == "__main__":
     print()
     for row in data:
         print(row)
-        
+
+
 ```
+
+
 
 
 
