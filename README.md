@@ -74,8 +74,7 @@ La ventaja de este código es que ejecuta las solicitudes a cada URL en paralelo
 
 
 Si la tarea es intensiva en recursos y necesita ser completada lo más rápido posible, entonces la ejecución en paralelo puede ser la mejor opción. Si la tarea no es crítica en tiempo y los recursos son limitados, la ejecución secuencial puede ser suficiente.
-Por tanto vemos que justo en este caso, con solo 4 urls, la diferencia de tiempo es mínima, por tanto tenemos suficiente con la programación secuencial.
-
+Por tanto vemos que justo en este caso, con solo 4 urls, si ejecutamos ambos programas sucesivas veces, nos damos cuenta de que en algunas ocasiones, es más rápida la programación secuencial, y en otras ocasiones lo es el multiprocesamiento, de esta manera vemos que para nuestros programas, la importtancia sobre como trabajarlo, teniendo en cuenta ambas maneras, no es tan importante o significativa.
 
 
 
