@@ -142,6 +142,8 @@ if __name__ == '__main__':
 En este programa, hemos importado Process de multiprocessing, de esta manera hemos podido convertir dos scrpits en dos subprocesos y ejecutarlos en un mismo script, y así comparar el tiempo de ambos, que era la finalidad del trabajo. 
 Esto lo hemos hecho definiendo una función scrape común a ambos, hemos transformado cada programa en una función, y finalmente con Process, hemos sido capaces de imprimirlos a la vez.
 
+
+# Conclusión:
 De esta manera podemos concluir, que trabajando en multiprocesamiento, el trabajo es más rápido y más ágil que trabajando de manera secuencial.
 
 
