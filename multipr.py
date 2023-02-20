@@ -1,6 +1,10 @@
 from multiprocessing import Pool
 from time import sleep
 import random
+import time
+
+
+tiempo_inicial=time.time()
 def scrape(url):
     print("starting", url)
     duration = round(random.random(),3)
@@ -14,5 +18,9 @@ if __name__ == "__main__":
     data = pool.map(scrape, urls)
     pool.close()    
     print()
-    for row in data:
-        print(row)
+    
+
+tiempo=(time.time()-tiempo_inicial,"segundos")
+print("El tiempo en multiprocesamiento es   :",tiempo)
+
+

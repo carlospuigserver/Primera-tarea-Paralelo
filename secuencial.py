@@ -1,5 +1,8 @@
 import random
 from time import sleep
+import time
+
+tiempoInicial = time.time()
 
 urls = ["a.com", "b.com", "c.com", "d.com"]
 
@@ -14,3 +17,8 @@ output = []
 for url in urls:
     result = scrape(url)
     output.append(result)
+
+Tiempo=(time.time()-tiempoInicial, "segundos")
+print("El tiempo en secuencial es:  ",Tiempo)
+
+
