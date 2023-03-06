@@ -143,6 +143,9 @@ En este programa, hemos importado Process de multiprocessing, de esta manera hem
 Esto lo hemos hecho definiendo una función scrape común a ambos, hemos transformado cada programa en una función, y finalmente con Process, hemos sido capaces de imprimirlos a la vez.
 
 
+
+<img width="944" alt="paralelo" src="https://user-images.githubusercontent.com/91721643/223161069-e1bcceba-a0a3-4ba7-9d15-5de6cc556585.png">
+
 # Conclusión:
 De esta manera podemos concluir, que trabajando en multiprocesamiento, el trabajo es más rápido y más ágil que trabajando de manera secuencial.
 
